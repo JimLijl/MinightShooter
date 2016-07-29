@@ -84,6 +84,11 @@ public class SkillUnleashedPower : MonoBehaviour {
                 Skill1Act = true;
             }
         }
+
+        if (GameManager._intance.GameState == GameManager.GAMESTATE_END)
+        {
+            Timer = ColdTime;
+        }
     }
 
 }

@@ -106,6 +106,11 @@ public class SkillFinalVent : MonoBehaviour {
 
             
         }
+
+        if (GameManager._intance.GameState == GameManager.GAMESTATE_END)
+        {
+            Timer = ColdTime;
+        }
     }
 
     void EffectOver()

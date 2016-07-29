@@ -96,5 +96,10 @@ public class SkillScattering : MonoBehaviour {
             }
 
         }
+
+        if (GameManager._intance.GameState == GameManager.GAMESTATE_END)
+        {
+            Timer = ColdTime;
+        }
     }
 }
