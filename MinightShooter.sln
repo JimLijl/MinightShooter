@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0BE3D540-B070-EC69-8DE6-D116C084D14D}") = "MinightShooter", "Assembly-CSharp-firstpass.csproj", "{9147EC0B-2FF5-E89D-E19D-3AA7CF62966D}"
+EndProject
+Project("{0BE3D540-B070-EC69-8DE6-D116C084D14D}") = "MinightShooter", "Assembly-CSharp.csproj", "{5A534499-FE79-CCD6-10CF-FECDBE6B6FF0}"
+EndProject
+Project("{0BE3D540-B070-EC69-8DE6-D116C084D14D}") = "MinightShooter", "Assembly-CSharp-Editor.csproj", "{5C47A185-D9A5-A26B-F320-4F0CE955AEE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9147EC0B-2FF5-E89D-E19D-3AA7CF62966D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9147EC0B-2FF5-E89D-E19D-3AA7CF62966D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9147EC0B-2FF5-E89D-E19D-3AA7CF62966D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9147EC0B-2FF5-E89D-E19D-3AA7CF62966D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A534499-FE79-CCD6-10CF-FECDBE6B6FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A534499-FE79-CCD6-10CF-FECDBE6B6FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A534499-FE79-CCD6-10CF-FECDBE6B6FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A534499-FE79-CCD6-10CF-FECDBE6B6FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C47A185-D9A5-A26B-F320-4F0CE955AEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C47A185-D9A5-A26B-F320-4F0CE955AEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C47A185-D9A5-A26B-F320-4F0CE955AEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C47A185-D9A5-A26B-F320-4F0CE955AEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
